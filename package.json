@@ -1,0 +1,18 @@
+{
+  "name": "chatroom.io",
+  "version": "1.0.0",
+  "description": "Realtime app with rooms usuing socket.io",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server",
+    "dev": "nodemon server"
+  },
+  "author": "Katie Breuil",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.27.0",
+    "nodemon": "^2.0.4",
+    "socket.io": "^2.3.0"
+  }
+}
