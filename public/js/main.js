@@ -62,7 +62,10 @@ function outputRoomName(room) {
 
 // Add users to DOM
 function outputUsers(users) {
-  userList.innerHTML = `${users
+  const x = users
     .map((user) => `<li>${user.username}</li>`)
-    .join()}`;
+    .join()
+    .replace(/,/g, '');
+  console.log(x);
+  userList.innerHTML = x;
 }
